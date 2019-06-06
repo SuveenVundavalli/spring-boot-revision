@@ -6,14 +6,10 @@ buildscript {
 
 plugins {
     id 'java'
+    id 'net.researchgate.release' version '2.6.0'
 }
 
 apply plugin: 'io.spring.dependency-management'
-
-bootJar {
-    archivesBaseName = 'pet-clinic-web'
-    version = '0.0.1-SNAPSHOT'
-}
 
 sourceCompatibility = 1.8
 
