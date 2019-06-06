@@ -7,7 +7,5 @@ import org.springframework.stereotype.Component;
 @Component
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> {
   @Override
-  public void onApplicationEvent(ContextRefreshedEvent event) {
-
-  }
+  public void onApplicationEvent(ContextRefreshedEvent event) {}
 }

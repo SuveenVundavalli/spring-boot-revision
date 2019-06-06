@@ -1,6 +1,9 @@
 pluginManagement {
-	repositories {
-		gradlePluginPortal()
-	}
+    repositories {
+        gradlePluginPortal()
+    }
 }
-rootProject.name = 'revision'
+rootProject.name = 'me.suveen.revision'
+include 'pet-clinic-data'
+include 'pet-clinic-web'
+
