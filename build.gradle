@@ -9,7 +9,6 @@ allprojects {
     apply plugin: 'org.springframework.boot'
 
     group = 'com.suveen'
-    version = version
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 }

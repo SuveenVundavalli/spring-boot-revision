@@ -11,6 +11,11 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
+bootJar {
+    archivesBaseName = 'pet-clinic-web'
+    version = version
+}
+
 sourceCompatibility = 1.8
 
 repositories {
