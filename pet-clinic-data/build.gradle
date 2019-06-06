@@ -10,9 +10,11 @@ apply plugin: 'io.spring.dependency-management'
 
 ext { springBootVersion = '2.1.5.RELEASE' }
 
+bootJar {
+    enabled = false
+}
 jar {
-    archivesBaseName = 'pet-clinic-data'
-    version = '0.0.1-SNAPSHOT'
+    enabled = true
 }
 
 group 'me.suveen'

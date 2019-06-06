@@ -1,6 +1,7 @@
 plugins {
     id 'org.springframework.boot' version '2.1.5.RELEASE'
     id 'java'
+    id 'net.researchgate.release' version '2.6.0'
 }
 
 allprojects {

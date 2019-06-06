@@ -10,9 +10,6 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group 'me.suveen'
-version '0.0.1-SNAPSHOT'
-
 bootJar {
     archivesBaseName = 'pet-clinic-web'
     version = '0.0.1-SNAPSHOT'
