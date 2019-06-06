@@ -6,11 +6,11 @@ import java.util.Set;
 
 public interface VetService {
 
-    Vet findById(Long id);
+  Vet findById(Long id);
 
-    Vet findByLastName(String lastName);
+  Vet findByLastName(String lastName);
 
-    Vet save(Vet vet);
+  Vet save(Vet vet);
 
-    Set<Vet> findAll();
+  Set<Vet> findAll();
 }
