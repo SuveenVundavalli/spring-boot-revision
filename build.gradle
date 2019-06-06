@@ -1,6 +1,15 @@
 plugins {
     id 'org.springframework.boot' version '2.1.5.RELEASE'
     id 'java'
+    id 'net.researchgate.release' version '2.6.0'
+}
+
+release {
+    buildTasks = []
+}
+
+bootJar {
+    enabled = false
 }
 
 allprojects {
@@ -9,13 +18,11 @@ allprojects {
     apply plugin: 'org.springframework.boot'
 
     group = 'com.suveen'
+    version = version
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 }
 
-
-group = 'me.suveen'
-version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
